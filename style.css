@@ -101,13 +101,10 @@ font-weight: 400px  ;
     width: 363.452px;
     color:#FF4DBC;
     font-family: Open Sans;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    text-align: startgit ;
-    
-
 
 }
 .lista-formacao{
@@ -119,28 +116,24 @@ font-weight: 400px  ;
     height: 579px;
     justify-content: center;
     
-
-
-  
-
 }
 .titulo-formacao{
     color: #828282;
-
 font-family: Open Sans;
 font-size: 16px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+
 }
-.link-formacao1{
+.link-formacao{
     color: #2F80ED;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-decoration-line: underline;
+    text-decoration: solid;
 }
 .descricao-formacao{
     font-size: 14px;
@@ -189,31 +182,21 @@ line-height: 20px;
     height: 24.5px;
     
 }
-.titulo-secao2{
-    font-size: 24px;
-    color: #FF4DBC;
-    font-weight: 50px;
-    margin-left: 20px;
-    line-height: normal;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 700px;
-    margin-bottom: 100px;
-    margin-top: 20px;   
-    font-family: Open Sans;
-    text-align: start;
-    align-self: start;
+
+
+   
 
     
-}
 .meus-projetos{
     background-color: #e5e5e5;
     height: 500px;
     margin-left: auto;
     margin-right: auto;
-    line-height: 40%;
-    text-align: flex-start;
-    justify-content: flex-start;
+    line-height: 20%;
+    text-align: center;
+    justify-content: center;
+    width: 1002px;
+    height: 601px;
 }
 
 .paragrafo{
@@ -223,6 +206,11 @@ line-height: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    align-self: flex-start;
+    justify-content:flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    
 }
 .segundario{
     color: #000;
@@ -231,19 +219,28 @@ font-size: 20px;
 font-style: normal;
 font-weight: 100;
 line-height: normal;
-align-self: baseline;
+align-items: center;
 }
-.descricao-formacao2{
+
+h2{
+    color: #661E4B;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+} 
+.descricao-formacao3{
     font-size: 14px;
-    width: 490px;
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    margin-bottom: 53px;
-    color: #000;
-    align-items: start;
+    margin-bottom: 20px;
+    align-items: flex-start;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 100px;
-    
-    
 }
+    
+
